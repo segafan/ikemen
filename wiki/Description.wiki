@@ -7,7 +7,7 @@ ikemen.exeを起動してください。
 ssz\config.sszにさまざまな設定が書かれています。
 
 == ジョイパッド ==
-config.ssz内のin.new[0].setの1番目の引数にジョイパッドの番号、
+config.ssz内のin.new{{{[0]}}}.setの1番目の引数にジョイパッドの番号、
 2番目以降にup,down,left,right,a,b,c,x,y,z,sの順にボタンの番号
 (-1から-4は左右上下、-5から-8はハットスイッチの左右上下)
 
@@ -18,7 +18,7 @@ in.new[0].set(
   9); //start 
 }}}
 
-2Pのキー設定はin.new[1].setと書いてその引数で設定します。
+2Pのキー設定はin.new{{{[1]}}}.setと書いてその引数で設定します。
 
 == ジステージの拡大・縮小 ==
 ZoomをtrueにするとMinScaleとMaxScaleが有効になります。
