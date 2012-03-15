@@ -24,7 +24,7 @@ in.new[0].set(
 ZoomをtrueにするとMinScaleとMaxScaleが有効になります。
 
 = キャラクター、ステージの登録 =
-script\select.macroを編集してください。
+script\select.luaを編集してください。
 
 = Netplay =
 テスト段階のネット対戦です。
