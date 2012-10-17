@@ -21,7 +21,7 @@ in.new[0].set(
 2Pのキー設定はin.new{{{[1]}}}.setと書いてその引数で設定します。
 
 == ジステージの拡大・縮小 ==
-ZoomをtrueにするとMinScaleとMaxScaleが有効になります。
+config.sszのsystemで指定したファイルでsetZoom(true)するとズームが有効になります。
 
 = キャラクター、ステージの登録 =
 script\select.luaを編集してください。
